@@ -1,1 +1,1 @@
-# Gnalry Movies
+# Gnarly Movies
