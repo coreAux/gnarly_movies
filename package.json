@@ -8,13 +8,18 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "test": "jest ./src/components/__tests__ .",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "dependencies": {
+    "@fontsource/audiowide": "^4.5.2",
+    "@fontsource/roboto": "^4.5.3",
+    "axios": "^0.26.0",
     "babel-plugin-styled-components": "^2.0.6",
     "gatsby": "^4.9.2",
     "gatsby-plugin-image": "^2.9.1",
@@ -27,6 +32,20 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "styled-components": "^5.3.3"
+    "react-infinite-scroll-component": "^6.1.0",
+    "styled-components": "^5.3.3",
+    "use-debounce": "^7.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "babel-jest": "^27.5.1",
+    "babel-preset-gatsby": "^2.9.1",
+    "eslint": "^8.10.0",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-react": "^7.29.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
+    "react-test-renderer": "^17.0.2"
   }
 }

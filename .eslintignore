@@ -1,0 +1,6 @@
+node_modules
+public
+__mocks__
+src/components/__tests__
+jest.config.js
+loadershim.js
